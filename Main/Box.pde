@@ -47,7 +47,6 @@ class Cubie {
  }
  
  void show(){
-   //fill(c);
    noFill();
    stroke(0);
    strokeWeight(0.1);
@@ -57,7 +56,6 @@ class Cubie {
    for(Face f : faces){
      f.show();
    }
-   //box(len);
    popMatrix();
  }
 }

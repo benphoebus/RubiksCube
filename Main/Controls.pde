@@ -1,7 +1,7 @@
 
 void keyPressed(){
   if(key == ' '){
-    started = true;
+    currentMove.start();
   }
     switch(key){
     case 'f':
@@ -47,7 +47,7 @@ void keyPressed(){
 void applyMoves(char move){
   switch(move){
     case 'f':
-      turnZ(-1,1);
+      turnZ(1,1);
       break;
     case 'F':
       turnZ(1,-1);
