@@ -1,5 +1,4 @@
 import peasy.*;
-
 PeasyCam cam;
   
 float speed = 0.2;
